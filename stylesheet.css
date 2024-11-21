@@ -1,0 +1,359 @@
+body , html{
+    background: #fce4ec; /* Light Pink Background */
+    color: #4a4a4a; /* Darker Gray for Readability */
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    color:white; /* Soft Raspberry Pink */
+}
+
+a {
+    color: #ce157b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4e64dd; /* Vibrant Lavender */
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ce157b, #f8bbd0); /* Gradient Pink Background */
+    text-align: center;
+    padding: 20px;
+}
+
+.header-text {
+    margin-top: 30%;
+    font-size: 28px;
+}
+
+.header-text h1 {
+    font-size: 50px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.header-text h1 span {
+    color: #ffcbdb; /* Light Pink Accent */
+}
+
+/* Navigation Bar */
+nav ul {  
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ffffffdd; /* White with transparency */
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #ffcbdb; /* Light Pink Background */
+    color: #fff;
+}
+
+#download-cv {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ce157b; /* Pink button */
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.download-btn:hover {
+    background-color: #4e64dd; /* Lavender on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    background: #f8bbd0; /* Soft Pink Background */
+    border-radius: 20px;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-col-1 img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tab-links {
+    color: #ce157b;
+    margin-right: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.tab-links:hover {
+    border-color: #ce157b;
+}
+
+.tab-contents ul {
+    padding: 20px;
+    list-style-type: none;
+}
+
+.tab-contents ul li {
+    margin-bottom: 20px;
+}
+
+.tab-contents ul li span {
+    font-weight: bold;
+    color: #ce157b; /* Match your brand color */
+}
+
+.tab-contents ul li br {
+    margin-top: 5px;
+}
+/*education modal*/
+
+
+/* Services Section */
+.fas fa-code, h2{
+color:  #4a4a4a;
+}
+#services {
+    padding: 40px 20px;
+    
+    text-align: center;
+    border-radius: 20px;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.services-list div {
+    margin-bottom: 20PX;
+   
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.services-list div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 40px 20px;
+    text-align: center;
+}
+/*new port styles*/
+/* General container styling */
+#portfolio {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f8bbd0; /* Optional light pink background */
+    border-radius: 15px;
+  }
+  
+  .sub-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Flexbox layout for portfolio items */
+  .work-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Spacing between items */
+    justify-content: center;
+  }
+  
+  .work {
+    flex: 1 1 calc(30% - 20px); /* Three items per row with gap adjustment */
+    max-width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .work img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .work:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .layer {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .layer h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+  }
+  
+  .layer p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #777;
+  }
+  
+  .layer button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color:#f8bbd0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .layer button:hover {
+    background-color: #4e64dd;
+  }
+  
+/**/
+.work img {
+    border-radius: 15px;
+    background-color: yellowgreen;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+.contact-container {
+    background: #f8bbd0;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    border-radius: 10px;
+    border: 2px solid #ce157b;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact-form button {
+    background: #ce157b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #4e64dd;
+}
+
+/*----------------------------------FOOTER-----------------------------------------------------*/
+.footer {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-size: 14px;
+    padding: 40px 0;
+    position: relative;
+  }
+  
+  .footer .copyright p {
+    margin-bottom: 0;
+  }
+  
+  .footer .social-links {
+    margin-top: 20px;
+  }
+  
+  .footer .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+    font-size: 16px;
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    margin: 0 5px;
+    transition: 0.3s;
+  }
+  
+  .footer .social-links a:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+  
+  .footer .credits {
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+  }
+  
