@@ -1,7 +1,7 @@
 body , html{
     background: #fce4ec; /* Light Pink Background */
     color: #4a4a4a; /* Darker Gray for Readability */
-    font-family: 'Poppins', sans-serif;
+    font-family:Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -79,6 +79,7 @@ nav ul li a:hover {
 #download-cv {
     text-align: center;
     margin: 50px 0;
+
 }
 
 .download-btn {
@@ -151,7 +152,77 @@ nav ul li a:hover {
 .tab-contents ul li br {
     margin-top: 5px;
 }
-/*education modal*/
+
+.btnCertificate{
+    background: #ce157b;
+    color: #fff;
+ }
+ .btnCertificate:hover{
+background: #4a4a4a;
+ }
+
+ .btnDiploma{
+    background: #ce157b;
+    color: #fff; 
+ }
+ .btnDiploma:hover{
+    background: #4a4a4a;
+     }
+     .about-col-2{
+       color: #333,
+     }
+/*education arccodian*/
+
+
+.accordion {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .accordion-item:last-child {
+    border-bottom: none;
+  }
+  
+  .accordion-header {
+    border-radius: 10px;
+    border: 2px solid #ce157b;
+    background-color: #ce157b;
+    color: #333;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    border: none;
+    outline: none;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-header:hover {
+    background-color: #ffffff;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    background-color: #f9f9f9;
+    padding: 0 15px; /* Will be animated */
+  }
+  
+  .accordion-content.open {
+    padding: 15px;
+    max-height: 200px; /* Adjust to fit content size */
+  }
+  
 
 
 /* Services Section */
@@ -261,7 +332,7 @@ color:  #4a4a4a;
   }
   
   .layer button:hover {
-    background-color: #4e64dd;
+    background-color:  #4a4a4a;
   }
   
 /**/
@@ -312,7 +383,7 @@ color:  #4a4a4a;
 }
 
 .contact-form button:hover {
-    background: #4e64dd;
+    background:  #4a4a4a;
 }
 
 /*----------------------------------FOOTER-----------------------------------------------------*/
@@ -356,4 +427,6 @@ color:  #4a4a4a;
     font-size: 13px;
     text-align: center;
   }
+  
+
   
